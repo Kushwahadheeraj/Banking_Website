@@ -1,0 +1,237 @@
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+}
+
+.logo {
+    color: var(--color-white);
+    font-size: 30px;
+}
+
+.logo span {
+    color: var(--color-primary);
+}
+
+.menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+    position: relative;
+}
+.innerheader,
+.midcontainer {
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    width: 280px;
+    /* padding: 10px 0 0; */
+}
+.headercontainer {
+    background: #201e1f;
+    width: 100%;
+    display: block;
+    height: 78px;
+    border-bottom: 15px solid #f6b801;
+}
+.headercontainer ul li img{
+    margin-top: 3px;
+    float: right;
+    margin-left: 40px;
+    width: 100px;
+    height: 58px;
+}
+
+
+.acc_container .block p {
+        padding: 5px 0;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+.innerpage p {
+        font-size: 13px;
+        color: #171717;
+        line-height: 20px;
+}
+.acc_container .block {
+       padding: 30px;
+}
+ol,ul {
+        list-style: none;
+}
+
+.acc_container .block ul li,
+.acc_container .cardtablftcontent ul li,.bank-policy ul li,
+.innerpagelisting ul li {
+                                    background: url(../images/bullet.jpg) 0 15px no-repeat rgba(0, 0, 0, 0);
+                                    color: #333;
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                    padding: 7px 12px 0;
+                                    text-align: justify;
+                                }
+                
+                                .acc_container .block ul li {
+                                    margin-left: 10px;
+                                }
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.grevience-heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.innerpage {
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: inherit;
+    color: #444;
+    line-height: 1.55;
+    font-weight: 300;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    height: 2650px;
+    width: 80%;
+    background-color: aliceblue;
+    /* box-shadow: 1px 1px 2px 0px rgba(51, 51, 51, 0.3); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .25s ease-in;
+    margin-left: 150px;
+}
+
+h2.acc_trigger {
+    /* text-decoration: none; */
+    height: 40px;
+    width: 90%;
+    font-size: 17px;
+    padding: 8px 8px;
+    cursor: pointer;
+    color: #a20c39;
+    font-weight: 400;
+    float: left;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+.innerpage h2 {
+    font-size: 24px;
+    color: #171717;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+h2.acc_trigger a {
+    color: #a20c39;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    /* padding: 7px 0 0 20px; */
+}
+
+
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.user .agent .stylesheet h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footertopimg {
+    height: auto;
+}
+
+.footertopimg {
+    height: 35px;
+    float: left;
+    background: #0b0b0b;
+    width: 100%;
+}
+
+.footertop {
+    width: auto;
+    float: left;
+    padding: 10px 10px 0px 0px;
+    font-family: open_sansbold;
+    margin-bottom: 13px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footertoprgt {
+    width: auto;
+    float: right;
+    padding: 8px 0 0;
+}
+
+.footertop span {
+    font-size: 13px;
+    font-family: open_sansbold;
+}
+
+.footertop a {
+    color: #fff;
+    font-size: 13px;
+    font-family: open_sansregular;
+    margin: 0 10px;
+}
+
+.footertop a,
+.fotertopcontentcol a,
+.newslisting li a {
+    text-decoration: none;
+}
+
+.footertoprgt {
+    padding: 0 23px 10px;
+    float: none;
+    width: 100%;
+}
+
+.footertoprgt {
+    display: block;
+    float: left;
+    padding: 0 20px 17px;
+    width: 100%;
+}
+
+.footertoprgt {
+    width: auto;
+    float: right;
+    padding: 8px 0 0;
+}
+
+.footertoprgt a {
+    color: #fff;
+    font-size: 13px;
+    font-family: open_sansregular;
+}

@@ -1,0 +1,146 @@
+.grevience-heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.innerpage {
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: inherit;
+    color: #444;
+    line-height: 1.55;
+    font-weight: 300;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    height: 200px;
+    width: 80%;
+    background-color: rgb(129, 234, 68);
+    /* box-shadow: 1px 1px 2px 0px rgba(51, 51, 51, 0.3); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .25s ease-in;
+    margin-left: 150px;
+}
+
+h2.acc_trigger {
+    /* text-decoration: none; */
+    height: 40px;
+    width: 90%;
+    font-size: 17px;
+    padding: 8px 8px;
+    cursor: pointer;
+    color: #a20c39;
+    font-weight: 400;
+    float: left;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+.innerpage h2 {
+    font-size: 24px;
+    color: #171717;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+h2.acc_trigger a {
+    color: #a20c39;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    /* padding: 7px 0 0 20px; */
+}
+
+
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.user .agent .stylesheet h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footertopimg {
+    height: auto;
+}
+
+.footertopimg {
+    margin-top: 270px;
+    height: 35px;
+    float: left;
+    background: #131011;
+    width: 100%;
+}
+
+.footertop {
+    width: auto;
+    float: left;
+    padding: 10px 10px 0px 0px;
+    font-family: open_sansbold;
+    margin-bottom: 13px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footertoprgt {
+    width: auto;
+    float: right;
+    padding: 8px 0 0;
+}
+
+.footertop span {
+    font-size: 13px;
+    font-family: open_sansbold;
+}
+
+.footertop a {
+    color: #fff;
+    font-size: 13px;
+    font-family: open_sansregular;
+    margin: 0 10px;
+}
+
+.footertop a,
+.fotertopcontentcol a,
+.newslisting li a {
+    text-decoration: none;
+}
+
+.footertoprgt {
+    padding: 0 23px 10px;
+    float: none;
+    width: 100%;
+}
+
+.footertoprgt {
+    display: block;
+    float: left;
+    padding: 0 20px 17px;
+    width: 100%;
+}
+
+.footertoprgt {
+    width: auto;
+    float: right;
+    padding: 8px 0 0;
+}
+
+.footertoprgt a {
+    color: #fff;
+    font-size: 13px;
+    font-family: open_sansregular;
+}

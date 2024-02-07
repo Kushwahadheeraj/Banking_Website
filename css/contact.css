@@ -1,0 +1,125 @@
+.cardtabcontent{
+        -webkit-tap-highlight-color: transparent;
+            font-family: "Open Sans", sans-serif;
+            font-size: inherit;
+            color: #444;
+            line-height: 1.55;
+            font-weight: 300;
+            box-sizing: border-box;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding-top: 25px;
+            padding-bottom: 45px;
+            height: 100%;
+            background-color: #fff;
+            /* box-shadow: 1px 1px 2px 0px rgba(51, 51, 51, 0.3); */
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: all .25s ease-in;
+}
+
+
+h2.acc_trigger {
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: #a20c39;
+    font-weight: 400;
+    float: left;
+    position: relative;
+    margin-top: 8px;
+}
+
+.innerpage h2 {
+    font-size: 24px;
+    color: #171717;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.user agent stylesheet h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.acc_container {
+    margin: 0 0 0px;
+    padding: 0;
+    font-size: 17px;
+    font-family: open_sansregular;
+    color: #666;
+    width: 100%;
+    float: left;
+    background: #efefef;
+    position: relative;
+    z-index: 40;
+    border-top: 1px solid #ccc;
+}
+/* @media only screen and (max-width: 994px).acc_container .block,.acc_container .cardtabcontent {
+    padding: 10px;
+} */
+
+.acc_container .block {
+    padding: 30px;
+}
+.height20{
+    height: 20px;
+}
+
+.acc_container .cardtabcontent {
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0 0 3px #ccc;
+    margin: 0;
+}
+ul{
+        display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+}
+.acc_container .block ul li,
+.acc_container .cardtablftcontent ul li,
+.bank-policy ul li,
+.innerpagelisting ul li {
+    background: url(../images/bullet.jpg) 0 15px no-repeat rgba(0, 0, 0, 0);
+    color: #333;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 7px 12px 0;
+    text-align: justify;
+}
+
+.acc_container .block ul li {
+    margin-left: 10px;
+}
+.tab_btn ul li:hover .plan_ul1 {
+    display: block;
+    position: absolute;
+    background: rgb(246, 246, 246);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.plan_ul1 li{
+    display: block;
+}

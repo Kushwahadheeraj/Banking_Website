@@ -1,0 +1,141 @@
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+}
+
+.logo {
+    color: var(--color-white);
+    font-size: 30px;
+}
+
+.logo span {
+    color: var(--color-primary);
+}
+
+.menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+    position: relative;
+}
+
+.innerheader,
+.midcontainer {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 280px;
+    /* padding: 10px 0 0; */
+}
+
+.headercontainer {
+    background: #201e1f;
+    width: 100%;
+    display: block;
+    height: 78px;
+    border-bottom: 15px solid #f6b801;
+}
+
+.headercontainer ul li img {
+    margin-top: 3px;
+    float: right;
+    margin-left: 40px;
+    width: 100px;
+    height: 58px;
+}
+/* ///////////////////footer////////////////// */
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.user .agent .stylesheet h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.footertopimg {
+    height: auto;
+}
+
+.footertopimg {
+    height: 35px;
+    float: left;
+    background: #000000;
+    width: 100%;
+}
+
+.footertop {
+    width: auto;
+    float: left;
+    padding: 10px 10px 0px 0px;
+    font-family: open_sansbold;
+    margin-bottom: 13px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footertoprgt {
+    width: auto;
+    float: right;
+    padding: 8px 0 0;
+}
+
+.footertop span {
+    font-size: 13px;
+    font-family: open_sansbold;
+}
+
+.footertop a {
+    color: #fff;
+    font-size: 13px;
+    font-family: open_sansregular;
+    margin: 0 10px;
+}
+
+.footertop a,
+.fotertopcontentcol a,
+.newslisting li a {
+    text-decoration: none;
+}
+
+.footertoprgt {
+    padding: 0 23px 10px;
+    float: none;
+    width: 100%;
+}
+
+.footertoprgt {
+    display: block;
+    float: left;
+    padding: 0 20px 17px;
+    width: 100%;
+}
+
+.footertoprgt {
+    width: auto;
+    float: right;
+    padding: 8px 0 0;
+}
+
+.footertoprgt a {
+    color: #fff;
+    font-size: 13px;
+    font-family: open_sansregular;
+}

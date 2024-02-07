@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="login">
+        <div class="login-wrapper">
+            <form action="" class="form">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input type="text" name="loginUrse" id="email" placeholder="Email" required>
+                               
+                </div>
+                <div class="input-group">
+                    <input type="password" name="loginPassword" id="password" placeholder="Password" required>
+                </div>
+                <input type="submit" value="Login" class="submit-btn" onclick="login()"/>
+            </form>
+        
+        </div>
+    </div>
+    <script>
+          function login(){
+            var email=document.getElementById("email").value;
+            var password=document.getElementById("password").value;
+            if(email=="kushwahadheeraj245@gmail.com" && password=="1234"){
+                alert("Login Successfully");
+                window.location.href="box.html";
+                
+            }
+            else{
+                alert("Invalid Information");
+                return;
+            }
+          }
+    
+    </script>
+</body>
+</html>
