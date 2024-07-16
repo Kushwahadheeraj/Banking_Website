@@ -1,14 +1,154 @@
-.login{
+.menu-bar-logo {
+    width: 50px;
+    height: 30px;
+    width: fit-content;
+    float: left;
+    margin-right: 150px;
+}
+
+.menu-bar {
+    background: rgb(238, 8, 58);
+    /* text-emphasis: center; */
+    /* float: right; */
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    /* margin-left: 300px; */
+    /* float: right; */
+}
+
+.menu-bar ul li {
+    /* width: 120px; */
+    /* margin: 15px; */
+    padding: 15px;
+    /* margin-left: 300px; */
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(232, 235, 229);
+}
+
+/* .active, */
+.menu-bar ul li:hover {
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+.menu-bar ul li a:hover{
+color: rgb(229, 12, 12);
+}
+
+.sub-menu-1 {
+    display: none;
+    /* width: 300px; */
+}
+ /* .sub-menu-1 ul img{
+    width: 280px;
+    height: 150px;
+} */
+.sub-menu-1 ul{
+    /* position: relative; */
+    list-style: none;
+}
+.sub-menu-1 ul li{
+    height: 30px;
+}
+.sub-menu-1 ul li a{
+color: rgb(237, 9, 9);
+text-align: center;
+} 
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: rgb(246, 246, 246);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+/* .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #b2ff00;
+} */
+
+.sub-menu-2 {
+    display: none;
+}
+
+/* .fa-angle-right {
+    float: right;
+} */
+
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 90px;
+    margin-top: 1px;
+    background: rgb(0, 100, 0);
+}
+.logo1{
+    height: 50px;
+    width: 80px;
+    float: right;
+    margin-left: 40px;
+}
+/* .sub-menu-1 ul {
+    position: relative;
+    list-style-type: none;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.sub-menu-1 ul li a {
     display: flex;
-        text-align: center;
-        justify-content: center;
-        background: url('Banking.jpg');
-        width: 100%;
-        height: 620px;
-        background-size: 100% 100%;
+    align-items: center;
+    font-size: 1.15em;
+    font-family: arial;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(235, 2, 2);
+    padding: 10px 30px;
+    height: 40px;
+    transition: .5s ease;
+    border-radius: 0 30px;
 }
-.login-from{
-    background-color: aliceblue;
-    /* float: left; */
-    margin-right: 300px;
+
+.sub-menu-1 ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
 }
+
+
+.sub-menu-1 ul ul {
+    position: absolute;
+    left: 270px;
+    width: 280px;
+    top: 0;
+    background-color: #fff;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+} */
+/********** Logo And Menu Ends **********/

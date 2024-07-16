@@ -1,0 +1,14 @@
+.login{
+    display: flex;
+        text-align: center;
+        justify-content: center;
+        background: url('Banking.jpg');
+        width: 100%;
+        height: 620px;
+        background-size: 100% 100%;
+}
+.login-from{
+    background-color: aliceblue;
+    /* float: left; */
+    margin-right: 300px;
+}
